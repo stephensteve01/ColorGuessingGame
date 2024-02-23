@@ -1,0 +1,121 @@
+
+.container {
+  position: relative;
+  text-align: center;
+  border-block-end-style: none;
+  font-size: 75px;
+  border: none;
+  max-width: 200%;
+
+}
+.centered {
+  position: absolute;
+  top: 100%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  border: none;
+  color: white;
+}
+/*h1{
+ font-style: oblique; 
+ color: blue;
+ font-size: 50px;
+ position: absolute;
+ 
+} */
+
+div {
+  color: aliceblue;
+  font-size:larger;
+  width: 800px;
+  height: 300px;
+  border: 2px black solid;
+}
+
+p{
+  color:white;
+  font-size: 20px; 
+  font-style: normal;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 25;
+  margin: 10px 10px;
+
+}
+
+button{
+  margin-top: 100px;
+  background-color: rgb(122, 176, 223);
+  width: 100px;
+  height: 50px;
+}
+.column1{
+  margin: 10px 10px;
+  border-color: aliceblue;
+  border-width: 10px;
+  
+}
+
+
+.column2{
+  margin: 10px 10px;
+  border-color: aliceblue;
+  border-width: 10px;
+  
+}
+
+.column3{
+  margin: 10px 10px;
+  border-color: aliceblue;
+  border-width: 10px;
+  
+}
+
+.column4{
+  margin: 10px 10px;
+  border-color: aliceblue;
+  border-width: 10px;
+
+}
+body{
+  background-color: rgb(3, 32, 32,);
+  margin: 50px 50px;
+  margin-left: 300px;
+  position: center;
+  background-image: url("pixxxx.JPG" );
+  background-position:center;
+  /* background-repeat: no-repeat;  */
+  /* background-size: cover; */
+  
+}
+
+/* can be use as p/h2 as an alternative style */
+h2{
+  font-size: large;
+  color:white;
+ 
+}
+.hint{
+  margin-top: 400px;
+ border: none;
+ color: white;   
+}
+input{
+  width: 250px;
+  height: 50px;
+  background-color: rgb(122, 176, 223);
+}
+label{
+  font-size: larger;
+  margin: 20px 30px;
+}
+img{
+  width: 105%;
+}
+::placeholder{
+  color: aliceblue;
+}
